@@ -124,3 +124,44 @@ article.top{
     border-radius: 5px;
     text-decoration: none;
 }
+.offert{
+    height: 350px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.chair, .offert_text{
+    display: inline-block;
+}
+.chair{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    margin-right: 40px;
+}
+.chairHeader{
+    padding: 20px 0 10px 0;
+    height: 30px;
+    width: inherit;
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 20px;
+}
+.offert h3{
+    width: 160px;
+    border-bottom: 6px solid rgb(42, 185, 167);
+}
+.chair img{
+    width: inherit;
+    height: inherit;
+}
+.offert_text{
+    width: 350px;
+    display: inline-block;
+    border: 1px solid #bebebe;
+    vertical-align: top;
+    padding: 20px 20px 20px 20px;
+}
+.offert_text p{
+    color: #a8a8a8;
+    margin-top: 20px;
+}
