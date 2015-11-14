@@ -1,0 +1,76 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0; padding: 0; border: 0;
+    font-family: 'raleway';
+}
+span{
+    color: rgb(42, 185, 167);
+}
+.container{
+    margin: auto;
+}
+nav{
+    height: 40px;
+    background: #000;
+    color: #fff;
+    padding: 0 60px 0 60px;
+    position: relative;
+}
+nav p{
+    position: absolute;
+    top: 10px;
+    float: left;
+    font-weight: bold;
+}
+nav ul
+{
+    font-size: 14px;
+    margin: 0;
+    padding-top: 7px;
+    list-style: none;
+}
+nav ul li
+{
+    display: block;
+    position: relative;
+    float: right;
+}
+nav li ul
+{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+}
+nav li li
+{
+    float: none;
+    font-size: 14px;
+}
+nav ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    margin-left: 1px;
+    white-space: nowrap;
+    background: black;
+}
+.arrow_box {
+    background: black;
+}
+.arrow_box:after, .arrow_box:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: black;
+    border-width: 10px;
+    margin-left: -10px;
+}
