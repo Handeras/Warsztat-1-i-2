@@ -74,3 +74,53 @@ nav ul li a
     border-width: 10px;
     margin-left: -10px;
 }
+article.top{
+    height: 500px;
+    background: linear-gradient(white, rgb(206, 205, 213));
+}
+.leftArrow{
+    color: rgb(42, 185, 167);
+    font-size: 80px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.rightArrow{
+    color: rgb(42, 185, 167);
+    font-size: 80px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+.top_content{
+    padding: 5% 0 5% 10%;
+    display: inline-block;
+}
+.top_text{
+    padding-top: 120px;
+    vertical-align: top;
+    width: 470px;
+    display: inline-block;
+    text-align: center;
+}
+.top_text p:first-child{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.top_text p:last-child{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.top a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    width: 200px;
+    height: 25px;
+    background: rgb(42, 185, 167);
+    border-radius: 5px;
+    text-decoration: none;
+}
