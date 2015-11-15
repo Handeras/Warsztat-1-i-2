@@ -25,4 +25,28 @@ $(function(){
             chairText.show();
         })
     });
+
+    var buttonLeft = $(".leftArrow");
+    var buttonRight = $(".rightArrow");
+    var visibleImage = 0;
+    var images = $(".top_content li");
+
+    images.eq(visibleImage).show(0);
+
+    buttonRight.click(function(){
+        images.eq(visibleImage).hide(0);
+        visibleImage++;
+        if(visibleImage >= images.length){
+            visibleImage = 0;
+        }
+        images.eq(visibleImage).show(0);
+    });
+    buttonLeft.click(function(){
+        images.eq(visibleImage).hide(0);
+        visibleImage--;
+        if(visibleImage < 0){
+            visibleImage = images.length-1;
+        }
+        images.eq(visibleImage).show(0);
+    });
 });

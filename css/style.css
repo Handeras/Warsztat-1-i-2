@@ -96,6 +96,10 @@ article.top{
     padding: 5% 0 5% 10%;
     display: inline-block;
 }
+.top_content li{
+    list-style-type: none;
+    display: none;
+}
 .top_text{
     padding-top: 120px;
     vertical-align: top;
