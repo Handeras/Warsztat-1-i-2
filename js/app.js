@@ -13,4 +13,16 @@ $(function(){
     menuButton.mouseleave(function(){
         arrowBox.hide();
     });
+
+    var chairs = $(".chair");
+    var chairText = $(".offert_text");
+
+    chairs.each(function(index){
+        chairs.eq(index).mouseenter(function(){
+            chairText.hide();
+        });
+        chairs.eq(index).mouseleave(function(){
+            chairText.show();
+        })
+    });
 });
